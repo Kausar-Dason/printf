@@ -9,5 +9,9 @@
 
 int _printf(const char *format, ...);
 int _putchar(char c);
+int printf_string(va_list val);
+int printf_char(va_list val);
+int print_percentage(void);
+int _strlen(const char *str)
 
 #endif
