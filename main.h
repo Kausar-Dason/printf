@@ -9,11 +9,11 @@
 #include <string.h>
 
 /**
- * mapping - associates format specifiers with 
- * 	their correspnding handler function.
+ * struct mapping - associates format specifiers with
+ *		their correspnding handler function.
  * @specifier: A string that represents the format specifier
- * 		(e.g., "s" for `%s`, "d" for `%d`). 
- * @func_ptr: points to a function that takes va_list 
+ *		(e.g., "s" for `%s`, "d" for `%d`).
+ * @func_ptr: points to a function that takes va_list
  */
 struct mapping
 {
