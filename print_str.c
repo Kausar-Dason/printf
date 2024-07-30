@@ -1,4 +1,3 @@
-/*printf string*/
 #include "main.h"
 
 /**
@@ -29,4 +28,3 @@ int printf_string(va_list val)
 
 	return (length);
 }
-

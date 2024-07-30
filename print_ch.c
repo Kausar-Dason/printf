@@ -1,5 +1,4 @@
-/*printf char*/
-#include "main.h" // Correct include directive
+#include "main.h"
 
 /**
  * printf_char - Prints a char
