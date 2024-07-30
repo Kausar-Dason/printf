@@ -18,6 +18,9 @@ int printf_processor(const char *format, link_t mappings[], va_list args)
 		if (format[i] == '%')
 		{
 			i++;
+			if (format[i] == '\0')
+				break;
+
 			for (j = 0; mappings[j].specifier != NULL; j++)
 			{
 				if (format[i] == mappings[j].specifier[0])
