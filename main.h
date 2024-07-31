@@ -7,6 +7,9 @@
 #include <unistd.h>
 #include <limits.h>
 #include <string.h>
+=======
+<<<<<<< HEAD
+>>>>>>> 3ee6a91ee1cbc058265786c2f294f04aceb79d65
 
 /**
  * struct mapping - associates format specifiers with
