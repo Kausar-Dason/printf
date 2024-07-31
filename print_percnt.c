@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_percentage - Print % sign
- * 
- * Return: Always 1 (number of characters printed)
+ *print_percentage - Print % sign
+ *
+ *Return: Always 1 (number of characters printed)
  */
 int print_percentage(void)
 {
