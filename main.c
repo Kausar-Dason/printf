@@ -26,8 +26,6 @@ int main(void)
 
 	printf("Length returned by _printf: %d\n", len);
 	printf("Length returned by printf: %d\n", len2);
-	_printf("Length:[%d, %i]\n", len, len);
-	printf("Length:[%d, %i]\n", len2, len2);
 
 	return (0);
 }
