@@ -30,5 +30,6 @@ int printf_char(va_list val);
 int _strlen(const char *str);
 int printf_intg(va_list args);
 int print_percentage(va_list);
+int printf_dec(va_list args);
 
 #endif
