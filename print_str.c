@@ -1,19 +1,11 @@
 #include "main.h"
 
 /**
-<<<<<<< HEAD
 * printf_string - Prints a string
 * @val: Arguments of type va_list
 *
 * Return: The length of the string
 */
-=======
-/* printf_string - Prints a string
- * @val: Arguments of type va_list
- *
- * Return: The length of the string
- */
-
 int printf_string(va_list val)
 {
 	char *str;

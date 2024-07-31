@@ -6,10 +6,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <limits.h>
-#include <string.h>
-=======
-<<<<<<< HEAD
->>>>>>> 3ee6a91ee1cbc058265786c2f294f04aceb79d65
 
 /**
  * struct mapping - associates format specifiers with
@@ -31,13 +27,9 @@ int printf_processor(const char *format, link_t mappings[], va_list args);
 int _putchar(char c);
 int printf_string(va_list val);
 int printf_char(va_list val);
-<<<<<<< HEAD
-int print_percentage(void);
-int _strlen(const char *str)
-int printf_intg(va_list args);
-=======
-int print_percentage(va_list);
 int _strlen(const char *str);
->>>>>>> 3ee6a91ee1cbc058265786c2f294f04aceb79d65
+int printf_intg(va_list args);
+int print_percentage(va_list);
+int printf_dec(va_list args);
 
 #endif
