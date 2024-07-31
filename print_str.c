@@ -8,12 +8,12 @@
 * Return: The length of the string
 */
 =======
- * printf_string - Prints a string
+/* printf_string - Prints a string
  * @val: Arguments of type va_list
  *
  * Return: The length of the string
  */
->>>>>>> 3ee6a91ee1cbc058265786c2f294f04aceb79d65
+
 int printf_string(va_list val)
 {
 	char *str;
