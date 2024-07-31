@@ -1,5 +1,3 @@
-/*printf_intg.c*/
-
 #include "main.h"
 /**
  * printf_intg - prints integer
@@ -10,9 +8,9 @@ int printf_intg(va_list args)
 {
 	int n = va_arg(args, int);
 	int numb, lst = n % 10, digit, ex = 1;
-	int  i = 1;
-
-	n = n / 10;
+	int  i = 0;
+	
+	n = n /10;
 	numb = n;
 
 	if (lst < 0)
@@ -23,6 +21,7 @@ int printf_intg(va_list args)
 		lst = -lst;
 		i++;
 	}
+
 	if (numb > 0)
 	{
 		while (numb / 10 != 0)
