@@ -9,8 +9,8 @@ int printf_intg(va_list args)
 	int n = va_arg(args, int);
 	int numb, lst = n % 10, digit, ex = 1;
 	int  i = 0;
-	
-	n = n /10;
+
+	n = n / 10;
 	numb = n;
 
 	if (lst < 0)

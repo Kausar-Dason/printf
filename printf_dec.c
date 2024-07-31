@@ -25,10 +25,10 @@ int printf_dec(va_list args)
 		_putchar('0');
 		return (1);
 	}
-	
+
 	while (nmb / exp >= 10)
 		exp = exp * 10;
-	
+
 	while (exp > 0)
 	{
 		digt = nmb / exp;
