@@ -2,11 +2,14 @@
 #include <stdio.h>
 #include "main.h"
 
+
 /**
  * main - Entry point
  *
  * Return: Always 0
  */
+>>>>>>> 3ee6a91ee1cbc058265786c2f294f04aceb79d65
+
 int main(void)
 {
 	int len;
@@ -23,5 +26,6 @@ int main(void)
 
 	printf("Length returned by _printf: %d\n", len);
 	printf("Length returned by printf: %d\n", len2);
+
 	return (0);
 }
