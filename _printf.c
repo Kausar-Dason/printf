@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 		{"%", print_percentage},
 		{NULL, NULL}
 	};
-	
+
 	va_list args;
 	int count;
 
