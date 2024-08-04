@@ -30,7 +30,8 @@ int printf_processor(const char *format, link_t mappings[], va_list args)
 			if (mappings[j].specifier == NULL)
 			{
 				_putchar(format[i]);
-				count += 1;
+				_putchar(format[i + 1]);
+				count += 2;
 			}
 		}
 		else
