@@ -29,8 +29,8 @@ int printf_processor(const char *format, link_t mappings[], va_list args)
 			}
 			if (mappings[j].specifier == NULL)
 			{
+				_putchar('%');
 				_putchar(format[i]);
-				_putchar(format[i + 1]);
 				count += 2;
 			}
 		}
